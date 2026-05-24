@@ -1,0 +1,13 @@
+# BNcraft Cloudflare Workers Konfigürasyonu
+# Bu dosya projenin kök dizininde olmalı
+
+name = "bncraft"
+main = "_worker.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+# Statik dosyalar bu klasörden sunulur
+[assets]
+directory = "."
+# index.html'i otomatik sun
+not_found_handling = "single-page-application"
