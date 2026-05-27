@@ -1421,12 +1421,117 @@ body.settings-open { overflow: hidden; }
         [data-theme="white"] .sort-select { background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='rgba(0,0,0,0.5)' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E"); }
 
         /* Dual range price slider */
-        .filter-group.range-group {
+.filter-group.range-group {
             flex: 1 1 100%;
             width: 100%;
             max-width: 100%;
         }
-        .dual-range-wrap {
+    </style>
+</head>
+<body>
+
+    <!-- Üst Menü / Navigasyon -->
+    <nav>
+        <div class="nav-left">
+            <!-- Logonuz yoksa buraya yazı da yazabilirsiniz -->
+            <img src="logo.png" alt="BNcraft Logo" class="nav-logo-img">
+        </div>
+        <div class="nav-right">
+            <a href="#marketplace" class="nav-btn">Marketplace</a>
+            <button class="hamburger-btn" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Yan Ayarlar Menüsü (Hamburger Dropdown) -->
+    <div class="hamburger-menu" id="hamburgerMenu">
+        <button class="menu-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+            Ana Sayfa
+        </button>
+        <div class="menu-divider"></div>
+        <button class="menu-item">Ayarlar</button>
+    </div>
+
+    <!-- Başlık Bölümü -->
+    <header class="header-section">
+        <h1 class="header-title">BNcraft MarketPlace Mods</h1>
+    </header>
+
+    <!-- Kontrol Paneli: Filtreler ve Kategoriler -->
+    <main class="controls">
+        <!-- Gelişmiş Arama Çubuğu -->
+        <div class="search-bar">
+            <div class="search-field-wrap">
+                <input type="text" class="search-input" placeholder="Mod ara veya filtrele...">
+            </div>
+            <button class="search-go-btn">
+                <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            </button>
+        </div>
+
+        <!-- Kategoriler -->
+        <div class="category-container">
+            <button class="cat-btn active">Tümü</button>
+            <button class="cat-btn">Dünyalar</button>
+            <button class="cat-btn">Eklentiler</button>
+            <button class="cat-btn">Görünümler</button>
+            <button class="cat-btn">Mash-Up</button>
+        </div>
+    </main>
+
+    <!-- Modların Listeleneceği Grid Yapısı -->
+    <section class="mod-grid" id="modGrid">
+        <!-- Örnek Bir Mod Kartı (JavaScript ile çoğaltılabilir) -->
+        <div class="mod-card">
+            <span class="type-badge">Eklenti</span>
+            <div class="card-rating-badge">
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                4.8
+            </div>
+            <div class="img-container">
+                <img src="https://via.placeholder.com/560x315" alt="Mod Görseli" class="card-img loaded">
+            </div>
+            <div class="mod-info">
+                <h3 class="mod-name">Destansı Ejderha Eklentisi</h3>
+                <div class="card-meta">
+                    <span class="card-studio">BNcraft Studio</span>
+                    <span class="card-price">160 <img src="data:image/png;base64,..." alt="coin"></span>
+                </div>
+                <button class="dl-trigger">İncele / İndir</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alt Bilgi (Footer) -->
+    <footer class="footer-text">
+        <p>&copy; 2026 BNcraft. Tüm Hakları Saklıdır.</p>
+    </footer>
+
+    <!-- Detay Penceresi (Modal Overlay) -->
+    <div class="modal-overlay" id="modModal">
+        <div class="modal-content">
+            <!-- Modal içeriği JavaScript tetiklendiğinde buraya dolacak -->
+        </div>
+    </div>
+
+    <!-- Menü Açma/Kapama İşlevi İçin Küçük Bir Script -->
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const hamburgerMenu = document.getElementById('hamburgerMenu');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('open');
+            hamburgerMenu.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
+        
+        dual-range-wrap {
             position:relative; height:40px; display:flex; align-items:center;
             width:100%; max-width:100%; overflow:visible; box-sizing:border-box;
             padding:0 14px;
