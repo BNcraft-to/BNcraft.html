@@ -1,0 +1,99 @@
+╔══════════════════════════════════════════════════════╗
+  BNcraft — Other Mods Registry
+  Total Mods   : 17
+  Last Updated : 2026-07-12
+  Site         : https://bncraft-1.pages.dev/other-mods
+  GitHub       : https://github.com/BNcraft-to/BNcraft.html
+╚══════════════════════════════════════════════════════╝
+
+─────────────────────────────────────────
+  HOW TO REQUEST A MOD
+─────────────────────────────────────────
+
+  1. Go to the BNcraft Discord server.
+  2. Find the 「🔥」requests channel.
+  3. Paste the Minecraft Marketplace link.
+     Example: https://www.minecraft.net/en-us/marketplace/pdp/...
+  4. The bot will automatically add it to the site.
+
+  ⚠️  Do NOT include apostrophes (') in your link.
+      Remove them before posting.
+      Example: aphmau's-pink-tree → aphmaus-pink-tree
+
+─────────────────────────────────────────
+  MOD LIST
+─────────────────────────────────────────
+
+    1. Waystone Addon - By BNcraft
+       Source : Lootlabs > MediaFire
+       URL    : https://loot-link.com/s?kBLdnBNr
+
+    2. Radiums Armament - By BNcraft
+       Source : Lootlabs > MediaFire
+       URL    : https://loot-link.com/s?YH6zruzi
+
+    3. Stone Factory Addon - By BNcraft
+       Source : Lootlabs > MediaFire
+       URL    : https://lootdest.org/s?FRjNfhW5
+
+    4. Stranger Things - By BNcraft
+       Source : Lootlabs > MediaFire
+       URL    : https://loot-link.com/s?2PiinisA
+
+    5. Chaos Cleaver - By BNcraft
+       Source : Lootlabs > MediaFire
+       URL    : https://lootdest.org/s?hdtA4q3Q
+
+    6. Radiant Pack RTX Shader - By BNcraft
+       Source : Lootlabs > Mediafire
+       URL    : https://lootdest.org/s?q8wyLlFO
+
+    7. XP Chest - By BNcraft
+       Source : Lootlabs > Mediafire
+       URL    : https://lootdest.org/s?ofqvB2yi
+
+    8. Actual Guns - By BNcraft
+       Source : Lootlabs > Mediafire
+       URL    : https://lootdest.org/s?iVbf78HO
+
+    9. BSLB Shaders - By BNcraft
+       Source : Lootlabs > Mediafire
+       URL    : https://lootdest.org/s?zsnCmbzt
+
+   10. Xiao Sakura Shader v3.3.2 - By BNcraft
+       Source : Lootlabs > Mediafire
+       URL    : https://loot-link.com/s?vDbV1FKT
+
+   11. Core Craft v1.1.0 - By BNcraft
+       Source : Lootlabs > Mediafire
+       URL    : https://loot-link.com/s?zXs6ZEbW
+
+   12. Poppy Playtime MeBesm Edition v1.0.1 - By BNcraft
+       Source : Mediafire
+       URL    : https://www.mediafire.com/file/qlcf229w6tu3fyx/Poppy
+
+   13. TACZ BLACK OPS - By BNcraft
+       Source : Lootlabs > Mediafire
+       URL    : https://lootdest.org/s?9zkEQztd
+
+   14. Unofficial TACZ New Gen 2 V1 - By BNcraft
+       Source : Lootlabs > Mega
+       URL    : https://loot-link.com/s?Oa2slPzd
+
+   15. Vibrant Lumina Shader 1.21 - By BNcraft
+       Source : Lootlabs > MediaFire
+       URL    : https://lootdest.org/s?R8AW0eFN
+
+   16. Vein Miner – Tree Capitator - By BNcraft
+       Source : Lootlabs > MediaFire
+       URL    : https://lootdest.org/s?Lfb4yIfh
+
+   17. Neo Elementals - By BNcraft
+       Source : Lootlabs > MediaFire
+       URL    : https://loot-link.com/s?0vHLRmld
+
+─────────────────────────────────────────
+
+© BNcraft — All rights reserved.
+  Site    : https://bncraft-1.pages.dev
+  GitHub  : https://github.com/BNcraft-to/BNcraft.html
